@@ -4,6 +4,7 @@ body {
     font-family: monospace;
     padding: 20px;
     text-decoration: none;
+    max-width: 100svw !important;
 }
 
 .terminal {
@@ -30,6 +31,7 @@ a {
 
 .prompt {
     margin-right: 5px;
+    text-wrap: none;
 }
 
 input {
@@ -37,6 +39,7 @@ input {
     color: lime;
     border: none;
     outline: none;
-    width: 80%;
+    width: auto;
+    max-width: 40%;
 }
 

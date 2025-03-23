@@ -190,4 +190,10 @@ $(document).ready(function () {
     }
 
     resetInputListener();
+
+    inputField.on("blur", function () {
+        setTimeout(function () {
+            inputField.focus();
+        }, 100);
+    });
 });
